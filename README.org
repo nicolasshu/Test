@@ -1,0 +1,29 @@
+#+title: Test
+
+
+* Basic UI Configuration
+Execution: C-c C-c (output, value results)
+
+#+begin_src python :results output
+def greeting():
+    return "Hello!"
+print(greeting())
+#+end_src
+
+#+RESULTS:
+: Hello!
+
+
+* How do we create a config file?
+
+#+begin_src python :tangle ./org_py.py
+def greeting():
+    return "Hello!"
+print(greeting())
+#+end_src
+
+If you wanted to get all of the codeblocks and put them into a file, you can add the following line:
+
+#+begin_src
+#+PROPERTY: header-args:python :tangle ./my_file.py
+#+end_src
