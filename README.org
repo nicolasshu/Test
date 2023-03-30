@@ -3,7 +3,6 @@
 * Basic UI Configuration
 Execution: C-c C-c (output, value results)
 
-
 #+begin_src python :results output
 def greeting():
     return "Hello!"
