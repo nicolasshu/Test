@@ -12,7 +12,6 @@ print(greeting())
 #+RESULTS:
 : Hello!
 
-
 * How do we create a config file?
 
 #+begin_src python :tangle ./org_py.py
