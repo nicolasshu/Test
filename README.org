@@ -1,6 +1,5 @@
 #+title: Test
 
-
 * Basic UI Configuration
 Execution: C-c C-c (output, value results)
 
